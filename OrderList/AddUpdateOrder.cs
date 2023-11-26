@@ -35,9 +35,9 @@ namespace OrderList
 
             if (Order == null)
             {
-                NorthwindContext dbContext = new NorthwindContext();
-                List<Employee> employees1 = dbContext.Employees.ToList();
-                List<Shipper> shippers1 = dbContext.Shippers.ToList();
+                NorthwindContext db = new NorthwindContext();
+                List<Employee> employees1 = db.Employees.ToList();
+                List<Shipper> shippers1 = db.Shippers.ToList();
                 cmbEmployees.DataSource = employees1;
                 cmbShippers.DataSource = shippers1;
 

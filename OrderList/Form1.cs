@@ -15,7 +15,7 @@ namespace OrderList
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("BU KOD DENEME ICIN EKLENDI");
+            MessageBox.Show("gdfhggfhgfhghfgh");
 
 
         }

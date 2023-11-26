@@ -21,10 +21,8 @@ namespace OrderList
 
         public AddUpdateOrder(Models.Order selectedOrder)
         {
-            InitializeComponent();
-            this.Order = selectedOrder;
-            btnAddorUpdate.Text = "Update";
-
+            MessageBox.Show("BU KOD DENEME ICIN EKLENDI");
+         
         }
 
         Order Order;

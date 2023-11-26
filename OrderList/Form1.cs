@@ -15,12 +15,8 @@ namespace OrderList
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            List<Employee> employees = dbContext.Employees.ToList();
-            List<Shipper> shippers = dbContext.Shippers.ToList();
-            lstEmployees.DataSource = employees;
-            lstTransportCompany.DataSource = shippers;
-            lstEmployees.SelectedItem = null;
-            lstTransportCompany.SelectedItem = null;
+            MessageBox.Show("BU KOD DENEME ICIN EKLENDI");
+
 
         }
 
